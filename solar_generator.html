@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나만의 태양열 발전기</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(120deg, #161a37 10%, #293063 100%);
+            min-height: 100vh;
+            color: #e5ecfa;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background: rgba(20,28,56,0.92);
+            padding: 2.5rem 1rem 1.5rem 1rem;
+            text-align: center;
+            border-bottom: 3px solid #27ffe9;
+            box-shadow: 0 2px 20px 0 rgba(0,245,235,0.08);
+            backdrop-filter: blur(6px);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.45rem;
+            letter-spacing: 2px;
+            color: #35ffe2;
+            text-shadow: 0 0 12px #22fee0, 0 2px 10px #29306388;
+        }
+        header p {
+            color: #6cf7e6;
+            text-shadow: 0 0 8px #112e36;
+        }
+        main {
+            max-width: 1100px;
+            margin: 2.6rem auto;
+            padding: 2.1rem 2.2rem;
+            background: rgba(28,36,72,0.67);
+            border-radius: 24px;
+            border: 4px solid #27ffe9;
+            box-shadow: 0 6px 28px 0 #27ffe92a, 0 1.5px 18px #0d101988;
+            backdrop-filter: blur(7px);
+        }
+        section {
+            margin-bottom: 2.6rem;
+        }
+        h2 {
+            color: #39ffe3;
+            border-left: 8px solid #27ffe9;
+            padding-left: 0.55em;
+            margin-bottom: 0.72rem;
+            font-size: 1.26rem;
+            text-shadow: 0 0 8px #31cec6;
+        }
+        ul, ol {
+            margin-left: 1.48em;
+        }
+        li { line-height: 1.77; }
+        .emph {
+            color: #fff675;
+            font-weight: bold;
+            text-shadow: 0 0 10px #21f4ff44;
+        }
+        mark {
+            background: #26305a;
+            color: #77fff9;
+            border-radius: 3px;
+            padding: 1px 5px;
+            font-weight: 600;
+            box-shadow: 0 0 8px #27ffe955;
+        }
+        .guide-box {
+            background: #ecfae3;
+            color: #282a36;
+            border-left: 6px solid #18b93e;
+            margin-top: 2.5em;
+            margin-bottom: 1.2em;
+            padding: 1.5em 1.4em 1.3em 1.4em;
+            border-radius: 10px;
+            font-size: 1.06em;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+        }
+        .guide-box b { color: #1b724c; }
+        .footer {
+            text-align: center;
+            color: #65ded6;
+            padding: 1.2rem;
+            border-top: 1px solid #254d6f;
+            margin-top: 3em;
+            font-size: 0.98em;
+            background: rgba(18,28,44,0.90);
+            border-radius: 0 0 18px 18px;
+        }
+        .screenshot-placeholder {
+            background: #393e46;
+            color: #ffd369;
+            border: 1.2px dashed #767a84;
+            border-radius: 9px;
+            padding: 12px;
+            margin: 14px 0;
+            text-align: center;
+            font-size: 1.01em;
+        }
+        .solar-panel-img {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-left: 1rem;
+            display: inline-block;
+            vertical-align: middle;
+            box-shadow: 0 4px 20px rgba(39, 255, 233, 0.15);
+            border: 2px solid rgba(39, 255, 233, 0.3);
+        }
+        .solar-panel-item {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>미래를 밝히는 차세대 태양열 발전기</h1>
+        <p>스마트 에너지 시대를 선도하는 혁신적 태양광 시스템</p>
+    </header>
+    <main>
+        <section>
+            <h2>1. 태양열 발전 키트 소개</h2>
+            <ul>
+                <li><b>작동 원리:</b><br>
+                    저희 태양열 키트는 <span class="emph">태양광 패널</span>에서 <mark>빛 에너지 → 전기 에너지</mark>로 변환하는 과정을 이용합니다.<br>
+                    조도센서가 <b>빛의 세기</b>를 감지해 시스템 동작을 자동으로 제어합니다.<br>
+                    조도센서가 빛이 있는곳으로 서보모터를 돌려 생산된 전기에너지의 발전량을 게이지로 출력 해준다.
+                </li>
+                
+                <li><b>장점/특징:</b>
+                    <ul>
+                        <li>· <span class="emph">맞춤형 용량</span> 설계, 소형·무소음·고효율
+                        <li>· 캠핑, 야외/비상 전원, 교육용 등 <mark>다방면 활용</mark>
+                        <li>· <b>과충전/과방전 방지</b> 및 지속적인 <b>실시간 상태 모니터링</b></li>
+                    </ul>
+                </li>
+            </ul>
+            <section style="margin-top:2.3em;">
+                <h2 style="color:#48ffe3; border-left:4px solid #58fff0; padding-left:0.5em; font-size:1.15em; margin-bottom:0.7em; text-shadow:0 0 8px #27ffe977;">2. 구성품</h2>
+                <ul style="display:flex; flex-wrap:wrap; gap: 0.6rem 1.4rem; list-style:none; padding-left:0; margin-left:0; font-size:1.18em;">
+                    <li style="display:flex; flex-direction:column; align-items:center; gap:6px;">
+                        태양광 패널
+                        <img src="100wMono.jpg" alt="태양광 패널" style="max-width:220px; width:100%; height:auto; border-radius:8px; box-shadow:0 4px 16px rgba(0,0,0,0.25); border:1px solid rgba(255,255,255,0.15);">
+                    </li>
+                    <li style="display:flex; flex-direction:column; align-items:center; gap:6px;">
+                        조도센서
+                        <img src="15e4dc56bccac7ced530ae78557649fc529ea7401619f6d1ea3512c9ba32.jpg" alt="조도센서" style="max-width:180px; width:100%; height:auto; border-radius:8px; box-shadow:0 4px 16px rgba(0,0,0,0.25); border:1px solid rgba(255,255,255,0.15);">
+                    </li>
+                    <li style="display:flex; flex-direction:column; align-items:center; gap:6px;">
+                        전압센서
+                        <img src="61SSAHU3oML._AC_UF1000,1000_QL80_.jpg" alt="전압센서" style="max-width:200px; width:100%; height:auto; border-radius:8px; box-shadow:0 4px 16px rgba(0,0,0,0.25); border:1px solid rgba(255,255,255,0.15);">
+                    </li>
+                </ul>
+            </section>
+            <section style="margin-top:2.3em;">
+                <h2 style="color:#48ffe3; border-left:4px solid #58fff0; padding-left:0.5em; font-size:1.15em; margin-bottom:0.7em; text-shadow:0 0 8px #27ffe977;">3. 신재생에너지 수업을 들으며 느낀점</h2>
+                <p style="font-size:1.07em; color:#e5ecfa; opacity:0.98;">
+                  처음엔 별로 흥미도 없고 재미도 없었는데 점점 하다 보니 흥미로워졌고, 조금 더 배우면 좋았을 것 같은데 마지막이라니 너무 아쉬운 것 같다.<br>
+                  점점 실력이 느니까 재미도 있었고 진짜 아쉽다.<br>
+                  <span style="color:#39ffe3; font-weight:bold; font-size:1.01em; letter-spacing:1px;">(박서진)</span><br><br>
+                  처음 왔을 때는 애들과 같은 첫수업이 아니라 조금 배우기 어렵고 재미없어 보였지만,<br>
+                  하다 보니 점점 더 어려웠고, 처음으로 문제를 풀었을 때의 느낌이 아직도 생생하다.<br>
+                  벌써 수업이 끝난다니 좀 아쉬운 것 같다.<br>
+                  <span style="color:#39ffe3; font-weight:bold; font-size:1.01em; letter-spacing:1px;">(양선우)</span><br><br>
+                </p>
+            </section>
+            <section style="margin-top:2.3em;">
+                <h2 style="color:#48ffe3; border-left:4px solid #58fff0; padding-left:0.5em; font-size:1.15em; margin-bottom:0.7em; text-shadow:0 0 8px #27ffe977;">4. if문 설명</h2>
+                <h3 style="margin-top:0.9em; color:#9afeea; font-size:1.04em; font-weight:600;">🔹 기본 구조 (Python 기준)</h3>
+                <pre style="background:#0f1430; color:#e5ecfa; padding:12px 14px; border-radius:10px; border:1px solid #294065; box-shadow:0 2px 12px rgba(0,0,0,0.18); overflow:auto;">if 조건식:
+    실행할_코드</pre>
+                <p style="margin:0.8em 0 0.4em 0; color:#d8f6ff;"><b style="color:#7ef7e8;">✅ 의미:</b></p>
+                <ul>
+                    <li>조건식이 <b>True(참)</b>이면, 들여쓰기 된 <code>실행할_코드</code>가 실행됩니다.</li>
+                    <li>조건식이 <b>False(거짓)</b>이면, 그냥 넘어갑니다.</li>
+                </ul>
+                <p style="margin-top:1.1em; color:#d8f6ff;"><b style="color:#7ef7e8;">ex)</b></p>
+                <pre style="background:#0f1430; color:#e5ecfa; padding:12px 14px; border-radius:10px; border:1px solid #294065; box-shadow:0 2px 12px rgba(0,0,0,0.18); overflow:auto;">x = 10
+
+if x > 5:
+    print("x는 5보다 큽니다.")</pre>
+                <p style="margin:0.8em 0 0.4em 0; color:#d8f6ff;">🧠 <b style="color:#7ef7e8;">해석:</b></p>
+                <ul>
+                    <li>x &gt; 5 → True니까</li>
+                    <li>"x는 5보다 큽니다." 출력됨</li>
+                </ul>
+            </section>
+        </section>
+
+        
+    </main>
+    <div class="footer">
+        &copy; 2025 나만의 태양열 발전기 | Powered by Solar Innovation
+    </div>
+</body>
+</html>
